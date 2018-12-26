@@ -1,0 +1,66 @@
+body {
+    color: #4aaaa5;
+    /*Cleaner Font */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*Styling Jumbotron */
+.jumbotron {
+    background-color:#bbe5eb ;
+    color: #4aaaa5;
+    margin-bottom: 1%;
+    padding-top: .5%;
+    padding-bottom: 2%;
+}
+
+
+/* VERY IMPORTANT --- Smaleer screen sizes */
+@media screen and (max-width: 767px) {
+    img {
+        width: 50% !important;
+    }
+    .left{
+        padding-top: 20px;
+    }
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h3{
+    font-size: 26px;
+}
+
+#startgame {
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+small{
+    font-size: 20px;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#currentWord, #guessesLeft, #lettersGuessed, #wins, #losses {
+    font-size: 24px;
+}
+
+.left {
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.right {
+    padding-right: 0;
+}
+
+.row {
+    border-radius: 5px;
+}
+

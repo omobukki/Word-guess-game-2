@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word-guess-game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <script defer src="<link rel=" stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+</head>
+
+<body>
+    <div class='container'> 
+        <div class="jumbotron text-center">
+            <h1> HANGMAN!
+                    <br>
+                    <small>Let's guess some words</small>
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-8 text-center left">
+                <h2 id="startgame">Press any key to get started!</h2>
+                <h3>Current word:</h3>
+                <div id="currentWord"></div>
+                <br>
+                
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <h3>Letters Guessed:</h3>
+                        <div id="lettersGuessed">---</div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-6">
+                            <h3>Guesses Left:</h3>
+                            <div id="guessesLeft">---</div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <h3>Number of Wins:</h3>
+                            <div id="wins">0</div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-md-6">
+                                <h3>Number of Losses:</h3>
+                                <div id="losses">0</div>
+                        </div>
+                </div>        
+            </div>
+
+            <div class="col-xs-12 col-md-4 right">
+                <img class='center-image' src="assets/images/photo-1545065813-d0fc0901aed9.jpg" alt="alley with trees" width="100%" height="100%">
+            </div>
+        </div>
+
+
+    </div>
+  <!--  <div class="jumbotron fluid background py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-8">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VS6UOyTb5eU"></iframe>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h1>Guess the word</h1>
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-iteme-center">
+                <div class="col-12 col-md-8 my-3">
+
+                    <div class="col-12 col-md-4by-3">
+                        <h1>Guess the word</h1>
+                        <button id="new-game-button">
+                            <i class="fas fa-gamepad"></i>
+                            Click for New Game
+                        </button>
+                    </div>
+                    <div class="row align-items center">
+                        <div class="col-12 col-md-4 my-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center py-5" id="placeholder-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 my-3">
+                                <h2 id="Fill-these-in">Fill these in
+                                    <br />
+                                    <span id="placeholder">-------</span>
+                                </h2>
+                            </div>
+                            <div class="col-12 col-md 6 my-3">
+                                <h2>Incorrect letter guessed
+                                    <br />
+                                    <span id="guessed-letter"></span>
+
+                                </h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    <div class="row">
+        <h3>
+            <div class=> Guess left: <span id="Guess-left">0</span></div>
+            <div class="spread">Wins: &#62; 0 <span id="wins">
+                </span></div>
+            <div class="spread">losses:<span id="losses">
+                </span> </div>
+        </h3>
+        <div class="row">
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Guesses left: <span id="Guess-left">0</span>
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Wins: <span id="Wins">0</span>
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Losses: <span id="Losses">0</span>
+                </h3>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+     -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1,min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/used/popper.min."></script>
+    <script src="assets/javascript,/game.js"></script>
+
+
+</body>
+
+</html>
